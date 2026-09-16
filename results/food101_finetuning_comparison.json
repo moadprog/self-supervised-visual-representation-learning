@@ -1,0 +1,23 @@
+{
+    "supervised_from_scratch": {
+        "best_epoch": 29,
+        "best_val_top1": 69.9009900990099,
+        "test_loss": 0.9178729402794696,
+        "test_top1": 75.43366336633663,
+        "test_top5": 93.13267326732674
+    },
+    "simclr_pretrained_finetuned": {
+        "best_epoch": 29,
+        "best_val_top1": 73.02970297029702,
+        "test_loss": 0.7868622181306381,
+        "test_top1": 78.64554455445544,
+        "test_top5": 94.56633663366337
+    },
+    "simclr_improvement_percentage_points": 3.2118811881188094,
+    "epochs": 30,
+    "batch_size": 128,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "validation_fraction": 0.1,
+    "seed": 42
+}
