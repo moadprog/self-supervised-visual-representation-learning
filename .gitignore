@@ -18,8 +18,8 @@ env/
 .DS_Store
 
 # Datasets
-data/
-datasets/
+/data/
+/datasets/
 
 # Model checkpoints
 checkpoints/
