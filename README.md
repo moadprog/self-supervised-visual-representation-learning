@@ -114,25 +114,24 @@ For each anchor:
 
 The model is trained with NT-Xent:
 
-$$
-\ell_i
-=
+```math
+\ell_i =
 -\log
 \frac{
-\exp\left(\mathrm{sim}(z_i,z_j)/\tau\right)
+\exp\left(s(z_i,z_j)/\tau\right)
 }{
-\sum_{k\neq i}
-\exp\left(\mathrm{sim}(z_i,z_k)/\tau\right)
+\sum_{k \neq i}
+\exp\left(s(z_i,z_k)/\tau\right)
 }
-$$
+```
 
-where $\mathrm{sim}(z_i,z_j)$ denotes cosine similarity and $\tau$ is the temperature parameter.
+where $s(z_i,z_j)$ denotes cosine similarity and $\tau$ is the temperature parameter.
 
 The main experiment uses:
 
-$$
+```math
 \tau = 0.5
-$$
+```
 ---
 
 ## Main Pretraining Setup
