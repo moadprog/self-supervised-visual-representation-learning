@@ -1,1 +1,1 @@
-# self-supervised-visual-representation-learning-
+# self-supervised-visual-representation-learning
