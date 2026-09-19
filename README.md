@@ -119,21 +119,20 @@ $$
 =
 -\log
 \frac{
-\exp\left(\operatorname{sim}(z_i,z_j)/\tau\right)
+\exp\left(\mathrm{sim}(z_i,z_j)/\tau\right)
 }{
 \sum_{k\neq i}
-\exp\left(\operatorname{sim}(z_i,z_k)/\tau\right)
+\exp\left(\mathrm{sim}(z_i,z_k)/\tau\right)
 }
 $$
 
-where $\operatorname{sim}$ denotes cosine similarity and $\tau$ is the temperature parameter.
+where $\mathrm{sim}(z_i,z_j)$ denotes cosine similarity and $\tau$ is the temperature parameter.
 
 The main experiment uses:
 
 $$
 \tau = 0.5
 $$
-
 ---
 
 ## Main Pretraining Setup
